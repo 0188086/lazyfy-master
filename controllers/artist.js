@@ -17,9 +17,4 @@ const destroy = (req, res, next) =>
  .then(result => res.status(200).json(result))
  .catch(err => res.status(500).json({message: 'Error al eliminar artista'}))
 
- module.exports = {
- create,
- read,
- update,
- destroy
-}
+ module.exports = {create,read,update,destroy}
