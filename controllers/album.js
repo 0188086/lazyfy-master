@@ -19,9 +19,4 @@ const destroy = (req, res, next) =>
  .catch(err => res.status(500).json({message: 'Error al eliminar Album'}))
 module.exports = {create, read, update, destroy}
 
-module.exports = {
- create,
- read,
- update,
- destroy
-}
+module.exports = {create,read,update,destroy}
