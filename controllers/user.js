@@ -79,9 +79,4 @@ function loginUser(req,res){
  })
 }
 
-module.exports = {
- prueba,
- saveUser,
- loginUser,
- listUsers
-}
+module.exports = {prueba,saveUser,loginUser,listUsers}
